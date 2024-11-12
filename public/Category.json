@@ -1,0 +1,38 @@
+
+[
+  
+    {
+        "product_id": "P001",
+        "category": "Laptop",
+        "price": 1299.99
+    },
+   
+  
+    {
+        "product_id": "P003",
+        "category": "Phone",
+        "price": 799.99
+    },
+  
+    {
+        "product_id": "P005",
+        "category": "Watch",
+        "price": 249.99
+    },
+ 
+    {
+        "product_id": "P007",
+        "category": "MacBook",
+        "price": 1299.99
+    },
+  
+    {
+        "product_id": "P009",
+        "category": "Accessories",
+        "price": 29.99
+    }
+   
+  
+ 
+    
+]

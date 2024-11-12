@@ -1,0 +1,324 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "Gaming Laptop 15.6 inch",
+        "product_image": "https://i.ibb.co.com/8Y2fwqt/editing-laptop-2048px-233661.webp",
+        "category": "Laptop",
+        "price": 1299.99,
+        "description": "High-performance gaming laptop with dedicated graphics.",
+        "specification": [
+            "Processor: Intel Core i7",
+            "RAM: 16GB",
+            "Storage: 512GB SSD",
+            "Graphics: NVIDIA GTX 1660 Ti"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id":2,
+        "product_title": "Ultrabook 13.3 inch",
+        "product_image": "https://i.ibb.co.com/rwsDqM4/download.jpg",
+        "category": "Laptop",
+        "price": 899.99,
+        "description": "Slim and lightweight ultrabook with long battery life.",
+        "specification": [
+            "Processor: Intel Core i5",
+            "RAM: 8GB",
+            "Storage: 256GB SSD",
+            "Weight: 1.2 kg"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 3,
+        "product_title": "Smartphone 5G",
+        "product_image": "https://i.ibb.co.com/9hmw4YC/download.jpg",
+        "category": "Phone",
+        "price": 799.99,
+        "description": "Flagship smartphone with 5G connectivity and high-resolution camera.",
+        "specification": [
+            "Display: 6.5 inches OLED",
+            "Camera: 108MP",
+            "Battery: 4500mAh",
+            "5G: Supported"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 4,
+        "product_title": "Budget Smartphone",
+        "product_image": "https://i.ibb.co.com/4tkd8qG/images.jpg",
+        "category": "Phone",
+        "price": 299.99,
+        "description": "Affordable smartphone with good battery life and reliable performance.",
+        "specification": [
+            "Display: 6.1 inches LCD",
+            "Camera: 48MP",
+            "Battery: 5000mAh",
+            "Storage: 64GB"
+        ],
+        "availability": false,
+        "rating": 4.2
+    },
+    {
+        "product_id":5,
+        "product_title": "Smart Watch",
+        "product_image": "https://i.ibb.co.com/FWKnHYW/download.jpg",
+        "category": "Watch",
+        "price": 249.99,
+        "description": "Smart watch with fitness tracking and notifications.",
+        "specification": [
+            "Display: AMOLED",
+            "Battery Life: Up to 7 days",
+            "Water Resistance: 50m",
+            "Heart Rate Monitor: Yes"
+        ],
+        "availability": true,
+        "rating": 4.5
+    },
+    {
+        "product_id": 6,
+        "product_title": "Fitness Band",
+        "product_image": "https://i.ibb.co.com/d552Vby/images.jpg",
+        "category": "Watch",
+        "price": 79.99,
+        "description": "Affordable fitness band with heart rate monitoring.",
+        "specification": [
+            "Display: OLED",
+            "Battery Life: Up to 14 days",
+            "Water Resistance: Yes",
+            "Sleep Tracking: Yes"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": 7,
+        "product_title": "MacBook Pro 13 inch",
+        "product_image": "https://i.ibb.co.com/wMX84d2/images.jpg",
+        "category": "MacBook",
+        "price": 1299.99,
+        "description": "MacBook Pro with M1 chip for powerful performance.",
+        "specification": [
+            "Processor: Apple M1",
+            "RAM: 8GB",
+            "Storage: 256GB SSD",
+            "Battery Life: Up to 20 hours"
+        ],
+        "availability": true,
+        "rating": 4.9
+    },
+    {
+        "product_id": 8,
+        "product_title": "MacBook Air 13 inch",
+        "product_image": "https://i.ibb.co.com/X2CMw4G/images.jpg",
+        "category": "MacBook",
+        "price": 999.99,
+        "description": "Lightweight MacBook Air with M1 chip.",
+        "specification": [
+            "Processor: Apple M1",
+            "RAM: 8GB",
+            "Storage: 256GB SSD",
+            "Battery Life: Up to 18 hours"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 9,
+        "product_title": "Laptop Sleeve 13 inch",
+        "product_image": "https://i.ibb.co.com/XZxLgCX/download.jpg",
+        "category": "Accessories",
+        "price": 29.99,
+        "description": "Protective laptop sleeve for 13-inch laptops.",
+        "specification": [
+            "Size: 13 inches",
+            "Material: Neoprene",
+            "Color: Black",
+            "Water Resistant: Yes"
+        ],
+        "availability": true,
+        "rating": 4.4
+    },
+    {
+        "product_id": 10,
+        "product_title": "Wireless Mouse",
+        "product_image": "https://i.ibb.co.com/FKYNgbX/download.jpg",
+        "category": "Accessories",
+        "price": 19.99,
+        "description": "Ergonomic wireless mouse with adjustable DPI.",
+        "specification": [
+            "Connection: Wireless",
+            "Battery Life: Up to 12 months",
+            "DPI: Adjustable",
+            "Compatibility: Windows, Mac"
+        ],
+        "availability": true,
+        "rating": 4.3
+    },
+    {
+        "product_id": 11,
+        "product_title": "Professional Laptop 15.6 inch",
+        "product_image": "https://i.ibb.co.com/61xQ2Jd/images.jpg",
+        "category": "Laptop",
+        "price": 1099.99,
+        "description": "Professional laptop with powerful processor and large storage.",
+        "specification": [
+            "Processor: Intel Core i7",
+            "RAM: 16GB",
+            "Storage: 1TB SSD",
+            "Graphics: Integrated"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 12,
+        "product_title": "Flagship Smartphone",
+        "product_image": "https://i.ibb.co.com/hs06DnX/images.jpg",
+        "category": "Phone",
+        "price": 999.99,
+        "description": "High-end smartphone with powerful camera and performance.",
+        "specification": [
+            "Display: 6.7 inches AMOLED",
+            "Camera: 108MP",
+            "Battery: 5000mAh",
+            "5G: Supported"
+        ],
+        "availability": true,
+        "rating": 4.8
+    },
+    {
+        "product_id": 13,
+        "product_title": "Premium Smart Watch",
+        "product_image": "https://i.ibb.co.com/wzFXFXD/images.jpg",
+        "category": "Watch",
+        "price": 299.99,
+        "description": "Premium smart watch with advanced health tracking features.",
+        "specification": [
+            "Display: AMOLED",
+            "Battery Life: Up to 10 days",
+            "Water Resistance: 50m",
+            "ECG: Yes"
+        ],
+        "availability": true,
+        "rating": 4.7
+    },
+    {
+        "product_id": 14,
+        "product_title": "MacBook Pro 16 inch",
+        "product_image": "https://i.ibb.co.com/Pm8G8mH/images.jpg",
+        "category": "MacBook",
+        "price": 2399.99,
+        "description": "16-inch MacBook Pro with high-end performance for professionals.",
+        "specification": [
+            "Processor: Apple M1 Pro",
+            "RAM: 16GB",
+            "Storage: 512GB SSD",
+            "Battery Life: Up to 17 hours"
+        ],
+        "availability": false,
+        "rating": 4.9
+    },
+    {
+        "product_id": 15,
+        "product_title": "Noise-Canceling Headphones",
+        "product_image": "https://i.ibb.co.com/z6Cpr2x/images.jpg",
+        "category": "Accessories",
+        "price": 149.99,
+        "description": "Wireless headphones with active noise cancellation.",
+        "specification": [
+            "Battery Life: Up to 20 hours",
+            "Bluetooth: Yes",
+            "Noise Cancellation: Active",
+            "Microphone: Yes"
+        ],
+        "availability": true,
+        "rating": 4.6
+    },
+    {
+        "product_id": 16,
+        "product_title": "Convertible Laptop 2-in-1",
+        "product_image": "https://i.ibb.co.com/BV6Yx1y/images.jpg",
+        "category": "Laptop",
+        "price": 749.99,
+        "description": "2-in-1 convertible laptop with touch screen.",
+        "specification": [
+            "Processor: Intel Core i5",
+            "RAM: 8GB",
+            "Storage: 256GB SSD"
+        ],
+
+        "availability": true,
+        "rating": 4.5
+        },
+        {
+            "product_id":17,
+            "product_title": "Portable Charger 10000mAh",
+            "product_image": "https://i.ibb.co.com/khDKhHX/download.jpg",
+            "category": "Accessories",
+            "price": 29.99,
+            "description": "Compact portable charger with 10000mAh capacity.",
+            "specification": [
+                "Capacity: 10000mAh",
+                "Ports: USB-A, USB-C",
+                "Fast Charging: Yes",
+                "LED Indicator: Yes"
+            ],
+            "availability": true,
+            "rating": 4.4
+        },
+        {
+            "product_id": 18,
+            "product_title": "Fitness Smartwatch",
+            "product_image": "https://i.ibb.co.com/H2TCq3q/images.jpg",
+            "category": "Watch",
+            "price": 199.99,
+            "description": "Smartwatch focused on fitness tracking and heart rate monitoring.",
+            "specification": [
+                "Display: LCD",
+                "Battery Life: Up to 5 days",
+                "Heart Rate Monitor: Yes",
+                "GPS: Yes"
+            ],
+            "availability": true,
+            "rating": 4.6
+        },
+        {
+            "product_id":19,
+            "product_title": "MacBook Pro 14 inch",
+            "product_image": "https://i.ibb.co.com/JzGXYQq/images.jpg",
+            "category": "MacBook",
+            "price": 1999.99,
+            "description": "MacBook Pro with M1 Pro chip, ideal for demanding tasks.",
+            "specification": [
+                "Processor: Apple M1 Pro",
+                "RAM: 16GB",
+                "Storage: 512GB SSD",
+                "Battery Life: Up to 18 hours"
+            ],
+            "availability": true,
+            "rating": 4.9
+        },
+        {
+            "product_id": 20,
+            "product_title": "Wireless Earbuds",
+            "product_image": "https://i.ibb.co.com/3hm6fH2/download.jpg",
+            "category": "Accessories",
+            "price": 79.99,
+            "description": "Wireless earbuds with immersive sound and noise cancellation.",
+            "specification": [
+                "Battery Life: Up to 6 hours",
+                "Bluetooth: Yes",
+                "Noise Cancellation: Passive",
+                "Charging Case: Yes"
+            ],
+            "availability": true,
+            "rating": 4.5
+        }
+    ]
+    
+           

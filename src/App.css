@@ -1,6 +1,6 @@
-#root {
-  max-width: 1540px;
-  margin: 0 auto;
+/* #root {
+  width: 91.666667%;
+  margin: 5px auto;
   padding: 2rem;
   text-align: center;
 }
@@ -16,7 +16,7 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+} */
 
 @keyframes logo-spin {
   from {

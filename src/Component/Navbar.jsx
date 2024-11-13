@@ -5,6 +5,8 @@ import { MdAddShoppingCart } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
 import { getStoreDataList, getStoreWhistList } from '../utility/DataStore';
 import { countContext, wishCountContex } from './MainLayout/Layout';
+import { authContext } from './context API/AuthProvider';
+import { signOut } from 'firebase/auth';
 
 
 
@@ -14,15 +16,30 @@ import { countContext, wishCountContex } from './MainLayout/Layout';
 const Navbar = () => {
 
   // const cardAdd=getStoreDataList()
+  const {user,userName}=useContext(authContext)
   const [cardAdd, setCardAdd] = useState([]);
   const [cardWish, setCardWish] = useState([])
 
   const { count, setCount } = useContext(countContext)
   const { wishCount, setWishCount } = useContext(wishCountContex)
   const location=useLocation()
+  const {signOutUser}=useContext(authContext)
+  const navigate=useNavigate()
  
   const bgcolor=location.pathname=='/'?'bg-begoni ':'bg-white'
   const [isScrolled, setIsScrolled] = useState(false);
+  // handle sign out
+  const handleSignOut=()=>{
+    signOutUser()
+    .then((result)=>{
+      console.log('sign out')
+      navigate('/signup')
+
+    })
+    .catch(error=>{
+      console.log(error.message)
+    })
+  }
 
   useEffect(() => {
     const getStoreData = getStoreDataList();
@@ -46,9 +63,9 @@ const Navbar = () => {
 
   return (
     <div className=' '>
-      <div className={`navbar  fixed mx-auto  ${
+      <div className={`navbar  fixed w-11/12  ${
                 isScrolled ? 'backdrop-blur-md bg-white/70' : 'bg-begoni'
-            } max-w-[1476px] ${bgcolor} z-50 backdrop-blur-lg rounded-md`}>
+            } ${bgcolor} z-50 backdrop-blur-lg rounded-md`}>
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -88,6 +105,19 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end gap-5">
+          {
+            user?
+             <>
+             <h1>{userName}</h1>
+             <button onClick={handleSignOut}>Log out</button></>
+             :
+             <>
+              <NavLink to={'/signup'}>SignUp</NavLink>
+              <NavLink to={'/login'}>Login</NavLink>
+             </>
+
+          }
+         
           <NavLink className={'relative '}><MdAddShoppingCart className=' bg-white rounded-full text-4xl  shadow-lg '></MdAddShoppingCart><small className='  w-5 h-5 absolute -top-4 -right-2 rounded-full bg-green-300  '>{cardAdd.length}</small></NavLink>
           <NavLink className={''}><FaRegHeart className=' bg-white rounded-full text-4xl p-1  shadow-lg ' /> <small className='  w-5 h-5 absolute -top-0 -right-2 rounded-full bg-green-300  '>{cardWish.length}</small></NavLink>
         </div>

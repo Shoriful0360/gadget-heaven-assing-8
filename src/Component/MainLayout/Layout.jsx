@@ -14,11 +14,11 @@ const Layout = () => {
     const [wishCount,setWishCount]=useState(0)
 
     return (
-        <div>
+        <div className='w-11/12 mx-auto'>
             <wishCountContex.Provider value={{wishCount,setWishCount}}>
             <countContext.Provider value={{count, setCount}}>
                 <Toaster></Toaster>
-                <div className='h-4'>
+                <div className='h-4 w-full'>
                     <Navbar></Navbar>
                 </div>
                 <div className='min-h-[calc(100vh-250px)] mx-auto py-10'>

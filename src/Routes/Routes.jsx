@@ -13,6 +13,9 @@ import Statistic from "../pages/Statistic";
 
 import AllProduct from "../pages/AllProduct";
 import Dashboard from "../pages/Dashboard";
+import Login from "../Component/Login/Login";
+import SignUp from "../Component/SignUp/SignUp";
+import PrivateProvider from "../Component/Private route/PrivateProvider";
 
 
 
@@ -42,8 +45,16 @@ import Dashboard from "../pages/Dashboard";
             ]
         },
         {
+          path:'/login',
+          element:<Login></Login>
+        },
+        {
+          path:'/signup',
+          element:<SignUp></SignUp>
+        },
+        {
           path:'/Id/:id',
-          element:<ProductDetails></ProductDetails>,
+          element:<PrivateProvider><ProductDetails></ProductDetails></PrivateProvider>,
           loader:()=>fetch('../products.json')
         },
         {
